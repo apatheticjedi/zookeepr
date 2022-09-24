@@ -9,7 +9,7 @@ const { zookeepers } = require('../data/zookeepers.json');
 
 jest.mock('fs');
 
-test("creates an zookeeper object", () => {
+test("creates a zookeeper object", () => {
     const zookeeper = createNewZookeeper(
         {name: "Darlene", id: "jhgdja3ng2"}, 
         zookeepers
@@ -35,7 +35,7 @@ test("filters by query", () => {
           },
     ];
 
-    const updatedZookeepers = filterByQuery({ age: "31" }, startingZookeepers);
+    const updatedZookeepers = filterByQuery({ age: 31 }, startingZookeepers);
 
     expect(updatedZookeepers.length).toEqual(1);
 
@@ -59,7 +59,7 @@ test("finds by id", () => {
 
     const result = findById("1", startingzookeepers);
 
-    expect(result.name).toBe("Kim");
+    expect(result.name).toBe("Raksha");
 });
 
 test("validates age", () => {
@@ -73,12 +73,12 @@ test("validates age", () => {
     const invalidZookeeper = {
         "id": "1",
         "name": "Raksha",
-        "age": 31,
+        "age": "31",
         "favoriteAnimal": "penguin"
           }
 
-    const result = validateZookeeper(animal);
-    const result2 = validateZookeeper(invalidAnimal);
+    const result = validateZookeeper(zookeeper);
+    const result2 = validateZookeeper(invalidZookeeper);
 
     expect(result).toBe(true);
     expect(result2).toBe(false);

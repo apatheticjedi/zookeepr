@@ -59,6 +59,18 @@
       "age": 64,
       "favoriteAnimal": "Rabbit",
       "id": "9"
+    },
+    {
+      "name": "David",
+      "age": 40,
+      "favoriteAnimal": "fruit bat",
+      "id": "10"
+    },
+    {
+      "name": "Jimbo",
+      "age": 77,
+      "favoriteAnimal": "Dingo",
+      "id": "11"
     }
   ]
 }

@@ -3,7 +3,8 @@ const {
     filterByQuery, 
     findById, 
     createNewZookeeper, 
-    validateZookeeper } = require('../../lib/zookeepers');
+    validateZookeeper, 
+} = require('../../lib/zookeepers');
 const { zookeepers } = require('../../data/zookeepers.json');
 
 router.get('/zookeepers', (req, res) => {
