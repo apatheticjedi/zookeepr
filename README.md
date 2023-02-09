@@ -31,7 +31,15 @@ This is a project that was completed for class. It was designed to gain experien
 
 ## Installation
 
-To install this application, clone this repo, then type ~~~npm i~~~ in the command line of the root directory to install all dependencies. Then, type ~~~npm start~~~ to start the server. Then, in your web browser, go to 'localhost:3001' to view the page.
+To install this application, clone this repo, then type 
+~~~
+npm i
+~~~ 
+in the command line of the root directory to install all dependencies. Then, type 
+~~~
+npm start
+~~~ 
+to start the server. Then, in your web browser, go to 'localhost:3001' to view the page.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
