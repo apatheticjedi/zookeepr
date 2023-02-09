@@ -12,8 +12,7 @@
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Contributing](#contributing)
-6. [Tests](#tests)
-7. [Questions](#questions)
+6. [Questions](#questions)
 
 ## Description
 
